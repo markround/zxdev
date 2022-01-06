@@ -1,8 +1,8 @@
 FROM z88dk/z88dk:nightly
 
 LABEL Version="latest" \
-      Maintainer="Mark Dastmalchi-Round (speccy@markround.com)" \
-      Description="A basic Docker container with ZX Spectrum cross-compiler tools"
+      Maintainer="Mark Dastmalchi-Round (mark@markround.com)" \
+      Description="A basic Docker container with ZX Spectrum cross-compiler tools (z88dk, pasmo and zmakebas)"
 
 ENV PASMO_VERSION="0.5.4.beta2"
 
