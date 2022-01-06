@@ -1,7 +1,7 @@
 # zxdev
 Simple Docker container to cross-compile ZX Spectrum code.
 
-Based on the [z88dk](https://github.com/z88dk/z88dk) nightlies, with added [pasmo](https://pasmo.speccy.org/) and [zmakebas](https://github.com/markround/zmakebas) patched to handle Spectrant extensions.
+Based on the [z88dk](https://github.com/z88dk/z88dk) nightlies, with added [pasmo](https://pasmo.speccy.org/) and [zmakebas](https://github.com/markround/zmakebas) patched to handle Spectranet extensions.
 
 # Example usage
 
