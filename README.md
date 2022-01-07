@@ -6,7 +6,7 @@ Based on the [z88dk](https://github.com/z88dk/z88dk) nightlies, with added [pasm
 # Example usage
 
 ```
-docker run -ti -v $PWD:/src --user $(id -u):$(id -g) markdr/zxdev \
+docker run --rm -ti -v $PWD:/src --user $(id -u):$(id -g) markdr/zxdev \
   pasmo --tap example.asm example.tap
 ```
 
