@@ -1,4 +1,4 @@
-FROM z88dk/z88dk:nightly
+FROM z88dk/z88dk:latest
 
 LABEL Version="latest" \
       Maintainer="Mark Dastmalchi-Round (mark@markround.com)" \
